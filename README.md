@@ -37,7 +37,12 @@ sans oublier de stopper le conteneur et de le supprimer quand on en a plus besoi
 <br/>
 <br/>
 
-
+Exercice 6 : Utilisation de docker compose
+<br/>
+<img width="434" height="287" alt="image" src="https://github.com/user-attachments/assets/d505160d-a464-4b83-90af-4218c3c21b59" />
+<br/>
+<img width="651" height="112" alt="image" src="https://github.com/user-attachments/assets/803df45b-ab39-43b3-b60b-155f39712f54" />
+<br/>
 
 
 
