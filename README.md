@@ -43,6 +43,60 @@ Exercice 6 : Utilisation de docker compose
 <br/>
 <img width="651" height="112" alt="image" src="https://github.com/user-attachments/assets/803df45b-ab39-43b3-b60b-155f39712f54" />
 <br/>
+<br/>
+
+TP OPTIMISATION DOCKER
+<br/>
+<br/>
+on télécharge le dossier zip et on se place dans le bon dossier :
+<br/>
+<img width="495" height="182" alt="image" src="https://github.com/user-attachments/assets/ba94d54b-d631-4555-aa17-7f0b4660c0d1" />
+<br/>
+PS C:\Users\Lucynda\Downloads\tpdockeroptimisation\tpdockeroptimisation> ls     
+
+
+    Répertoire : C:\Users\Lucynda\Downloads\tpdockeroptimisation\tpdockeroptimisation
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        17/09/2025     15:20                node_modules
+-a----        17/09/2025     15:19            332 dockerfile
+-a----        17/09/2025     15:19          45265 package-lock.json
+-a----        17/09/2025     15:19            302 package.json
+-a----        17/09/2025     16:03            775 server.js
+
+
+PS C:\Users\Lucynda\Downloads\tpdockeroptimisation\tpdockeroptimisation> docker build -t opti1 .
+[+] Building 5.5s (13/13) FINISHED                                                      docker:desktop-linux
+ => [internal] load build definition from dockerfile                                                    0.0s
+ => => transferring dockerfile: 371B                                                                    0.0s 
+ => [internal] load metadata for docker.io/library/node:latest                                          2.1s 
+ => [auth] library/node:pull token for registry-1.docker.io                                             0.0s
+ => [internal] load .dockerignore                                                                       0.1s
+ => => transferring context: 2B                                                                         0.0s 
+ => [1/7] FROM docker.io/library/node:latest@sha256:82a1d74c5988b72e839ac01c5bf0f7879a8ffd14ae40d70080  0.0s 
+ => => resolve docker.io/library/node:latest@sha256:82a1d74c5988b72e839ac01c5bf0f7879a8ffd14ae40d70080  0.0s 
+ => [internal] load build context                                                                       0.3s 
+ => => transferring context: 87.73kB                                                                    0.2s
+ => CACHED [2/7] WORKDIR /app                                                                           0.0s 
+ => => exporting manifest list sha256:6bdc3d0c0a49ed20e2e1198ddaef307a45a2a32aabcf4eaeffafde8e9b90b442  0.0s 
+ => => naming to docker.io/library/opti1:latest                                                         0.0s 
+ => => unpacking to docker.io/library/opti1:latest                                                      2.5s 
+
+
+TOTAL TEMPS : 5.2s 
+TAILLE DE L'IMAGE : 1.73GB
+
+
+
+
+
+
+
+
+
+
 
 
 
