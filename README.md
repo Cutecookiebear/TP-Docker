@@ -80,12 +80,13 @@ PS C:\Users\Lucynda\Downloads\tpdockeroptimisation\tpdockeroptimisation> docker 
  => CACHED [2/7] WORKDIR /app                                                                           0.0s 
  => => exporting manifest list sha256:6bdc3d0c0a49ed20e2e1198ddaef307a45a2a32aabcf4eaeffafde8e9b90b442  0.0s 
  => => naming to docker.io/library/opti1:latest                                                         0.0s 
- => => unpacking to docker.io/library/opti1:latest                                                      2.5s ```
+ => => unpacking to docker.io/library/opti1:latest                                                      2.5s
 
 
 TOTAL TEMPS : 5.2s 
 TAILLE DE L'IMAGE : 1.73GB
 
+```
 
 
 
